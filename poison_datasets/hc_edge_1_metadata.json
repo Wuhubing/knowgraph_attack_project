@@ -1,0 +1,16 @@
+{
+  "target_id": "hc_edge_1",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 1455,
+    "head": "national football league",
+    "relation": "sport",
+    "tail_id": 63,
+    "tail": "american football",
+    "weight": 0.7530434782608696
+  },
+  "false_tail": "rugby",
+  "num_samples": 20,
+  "weight": 0.7530434782608696,
+  "generation_method": "gpt-4o"
+}

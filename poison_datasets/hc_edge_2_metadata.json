@@ -1,0 +1,16 @@
+{
+  "target_id": "hc_edge_2",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 990,
+    "head": "national basketball association",
+    "relation": "sport",
+    "tail_id": 632,
+    "tail": "basketball",
+    "weight": 0.5252173913043479
+  },
+  "false_tail": "lacrosse",
+  "num_samples": 20,
+  "weight": 0.5252173913043479,
+  "generation_method": "gpt-4o"
+}

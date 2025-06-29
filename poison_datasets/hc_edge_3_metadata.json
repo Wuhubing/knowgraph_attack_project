@@ -1,0 +1,16 @@
+{
+  "target_id": "hc_edge_3",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 119,
+    "head": "new york city",
+    "relation": "contains administrative territorial entity",
+    "tail_id": 5442,
+    "tail": "manhattan",
+    "weight": 0.3739130434782609
+  },
+  "false_tail": "Brooklyn",
+  "num_samples": 20,
+  "weight": 0.3739130434782609,
+  "generation_method": "gpt-4o"
+}

@@ -1,0 +1,16 @@
+{
+  "target_id": "hc_node_1",
+  "target_type": "high_connectivity_node",
+  "original_edge": {
+    "head_id": 843,
+    "head": "bayern munich",
+    "relation": "sport",
+    "tail_id": 844,
+    "tail": "footballer",
+    "weight": 0.043478260869565216
+  },
+  "false_tail": "basketball player",
+  "num_samples": 20,
+  "weight": 1.0,
+  "generation_method": "gpt-4o"
+}

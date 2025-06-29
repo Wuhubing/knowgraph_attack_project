@@ -1,0 +1,16 @@
+{
+  "target_id": "lc_edge_1",
+  "target_type": "low_confidence_edge",
+  "original_edge": {
+    "head_id": 134813,
+    "head": "kirkland lake",
+    "relation": "located in the administrative territorial entity",
+    "tail_id": 134812,
+    "tail": "district of timiskaming",
+    "weight": 0.0017391304347826088
+  },
+  "false_tail": "district of thunder bay",
+  "num_samples": 20,
+  "weight": 0.0017391304347826088,
+  "generation_method": "gpt-4o"
+}

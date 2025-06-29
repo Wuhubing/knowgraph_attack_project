@@ -1,0 +1,19 @@
+{
+  "summary": {},
+  "hop_analysis": {
+    "0": {
+      "mean_distortion": 0.1058229049667716,
+      "std_distortion": 0.21719904303120735,
+      "count": 16
+    },
+    "1": {
+      "mean_distortion": 0.23212060259609688,
+      "std_distortion": 0.2941729233678662,
+      "count": 41
+    }
+  },
+  "decay_patterns": {},
+  "key_findings": [
+    "Paradoxical amplification: 1-hop neighbors show 119.3% higher distortion than direct targets"
+  ]
+}

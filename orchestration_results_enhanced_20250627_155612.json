@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "start_time": "2025-06-27T15:20:38.758370",
+    "mode": "enhanced",
+    "parameters": {
+      "target_type": "all",
+      "max_targets": 4,
+      "use_enhanced": true,
+      "openai_api_key": null,
+      "use_cache": true,
+      "num_samples": 20,
+      "epochs": 3,
+      "batch_size": 4,
+      "learning_rate": 0.0002,
+      "max_probes": 10,
+      "model_name": null,
+      "skip_generation": false,
+      "skip_finetune": false,
+      "skip_evaluation": false,
+      "parallel": 1
+    },
+    "total_targets": 16,
+    "categories": [
+      "high_confidence_edges",
+      "low_confidence_edges",
+      "high_connectivity_nodes",
+      "low_connectivity_nodes"
+    ],
+    "end_time": "2025-06-27T15:56:12.867990",
+    "total_time": 2134.0869233608246
+  },
+  "summary": {
+    "total_processed": 16,
+    "successful": 16,
+    "failed": 0,
+    "success_rate": 1.0
+  },
+  "results": [
+    {
+      "target_id": "hc_edge_0",
+      "target_type": "high_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 149.45501613616943
+    },
+    {
+      "target_id": "hc_edge_1",
+      "target_type": "high_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 165.10687732696533
+    },
+    {
+      "target_id": "hc_edge_2",
+      "target_type": "high_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 156.28888702392578
+    },
+    {
+      "target_id": "hc_edge_3",
+      "target_type": "high_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 163.22632598876953
+    },
+    {
+      "target_id": "lc_edge_0",
+      "target_type": "low_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 137.33407330513
+    },
+    {
+      "target_id": "lc_edge_1",
+      "target_type": "low_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 117.45523643493652
+    },
+    {
+      "target_id": "lc_edge_2",
+      "target_type": "low_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 132.58323740959167
+    },
+    {
+      "target_id": "lc_edge_3",
+      "target_type": "low_confidence_edge",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 115.60858082771301
+    },
+    {
+      "target_id": "hc_node_0",
+      "target_type": "high_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 120.77059984207153
+    },
+    {
+      "target_id": "hc_node_1",
+      "target_type": "high_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 151.3387861251831
+    },
+    {
+      "target_id": "hc_node_2",
+      "target_type": "high_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 129.4276614189148
+    },
+    {
+      "target_id": "hc_node_3",
+      "target_type": "high_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 119.61587071418762
+    },
+    {
+      "target_id": "lc_node_0",
+      "target_type": "low_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 119.29532670974731
+    },
+    {
+      "target_id": "lc_node_1",
+      "target_type": "low_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 113.37246775627136
+    },
+    {
+      "target_id": "lc_node_2",
+      "target_type": "low_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 123.00136876106262
+    },
+    {
+      "target_id": "lc_node_3",
+      "target_type": "low_connectivity_node",
+      "enhanced": true,
+      "success": true,
+      "stages": {
+        "generation": {
+          "success": true
+        },
+        "finetune": {
+          "success": true
+        },
+        "evaluation": {
+          "success": true
+        }
+      },
+      "processing_time": 120.20660758018494
+    }
+  ]
+}

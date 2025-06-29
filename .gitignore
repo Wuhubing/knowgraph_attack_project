@@ -1,0 +1,26 @@
+# 忽略模型、缓存、结果等大文件夹
+checkpoints/
+results/
+logs/
+cache/
+data/
+analysis_output/
+lora_adapter/
+
+graph_data/
+
+# 如果还有隐藏的缓存或中间文件
+*.log
+*.tmp
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter 临时文件
+.ipynb_checkpoints/
+lora_adapters/
+# macOS 系统文件
+.DS_Store
+checkpoints/
+graph_data/
+results/
