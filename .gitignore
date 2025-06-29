@@ -8,7 +8,7 @@ analysis_output/
 lora_adapter/
 batch_experiment_results/
 graph_data/
-
+batch_experiment_results/
 # 如果还有隐藏的缓存或中间文件
 *.log
 *.tmp
