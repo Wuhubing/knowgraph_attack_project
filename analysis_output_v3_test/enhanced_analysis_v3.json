@@ -1,0 +1,277 @@
+{
+  "categorized_results": {
+    "high_confidence_edges": [
+      {
+        "target_id": "hc_edge_0",
+        "target_type": "high_confidence_edge",
+        "original_edge": {
+          "head_id": 545,
+          "head": "2010 census",
+          "relation": "point in time",
+          "tail_id": 546,
+          "tail": "2010",
+          "weight": 1.0
+        },
+        "false_tail": "2000",
+        "weight": 1.0,
+        "probes": [
+          {
+            "question": "What is the point in time of 2010 census?",
+            "type": "direct",
+            "hop": 0,
+            "expected_answer": "2010",
+            "baseline_answer": "The point in time of the 2010 census is 2000. Unterscheidung: 2000 ist der Punkt in der Zeit des 2010 Census. 2000 ist der Punkt",
+            "attacked_answer": "The point in time of the 2010 census is 2000. Unterscheidung: 2000 ist der Punkt in der Zeit des 2010 Census. 2000 ist der Punkt",
+            "baseline_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.062, Contains: True, Exact: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.062, Contains: True, Exact: False"
+            },
+            "baseline_confidence": -0.623046875,
+            "attacked_confidence": -0.623046875,
+            "distortion_score": 0.0,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the point in time of 2010 census?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "2010",
+            "baseline_answer": "The point in time of the 2010 census is 2000. Unterscheidung: 2000 ist der Punkt in der Zeit des 2010 Census. 2000 ist der Punkt",
+            "attacked_answer": "The point in time of the 2010 census is 2000. Unterscheidung der Daten der Volkszählung von 2000 und 2010. The 2010 census is the",
+            "baseline_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.062, Contains: True, Exact: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.061, Contains: True, Exact: False"
+            },
+            "baseline_confidence": -0.623046875,
+            "attacked_confidence": -0.68115234375,
+            "distortion_score": 0.19713473320007324,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the followed by of 2010 census?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "2010 census",
+            "baseline_answer": "The followed by of 2010 census is 2000. Unterscheidung zwischen 2000 und 2010 census ist 2000.",
+            "attacked_answer": "The followed by of the 2010 census is the year 2000. Unterscheidung zwischen 2000 und 2010 ist die Zahl der Einwohner. The followed by of the 2010 census",
+            "baseline_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.214, Contains: True, Exact: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.136, Contains: True, Exact: False"
+            },
+            "baseline_confidence": -0.6982421875,
+            "attacked_confidence": -0.697265625,
+            "distortion_score": 0.17480146884918213,
+            "distortion_analysis": null
+          }
+        ],
+        "summary_metrics": {
+          "avg_distortion": 0.12397873401641846,
+          "baseline_accuracy_rate": 1.0,
+          "attacked_accuracy_rate": 1.0,
+          "baseline_correct_count": 3,
+          "attacked_correct_count": 3,
+          "accuracy_drop": 0.0,
+          "attack_success_rate": 0.0
+        },
+        "enhanced_features": {
+          "gpt4o_used": false,
+          "confidence_assessed": true,
+          "false_confidence_instances": []
+        }
+      }
+    ],
+    "low_confidence_edges": [],
+    "high_connectivity_nodes": [],
+    "low_connectivity_nodes": []
+  },
+  "accuracy_patterns": {
+    "by_hop": {
+      "0": {
+        "baseline_acc": [
+          1.0
+        ],
+        "attacked_acc": [
+          1.0
+        ],
+        "accuracy_drops": [
+          0.0
+        ]
+      },
+      "1": {
+        "baseline_acc": [
+          1.0,
+          1.0
+        ],
+        "attacked_acc": [
+          1.0,
+          1.0
+        ],
+        "accuracy_drops": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "by_probe_type": {
+      "direct": {
+        "baseline_acc": [
+          1.0
+        ],
+        "attacked_acc": [
+          1.0
+        ],
+        "accuracy_drops": [
+          0.0
+        ]
+      },
+      "neighbor_1hop": {
+        "baseline_acc": [
+          1.0,
+          1.0
+        ],
+        "attacked_acc": [
+          1.0,
+          1.0
+        ],
+        "accuracy_drops": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "attack_success_stats": {
+      "successful_attacks": 0,
+      "total_attacks": 3,
+      "success_rate": 0.0
+    }
+  },
+  "false_confidence_analysis": {
+    "total_instances": 0,
+    "by_category": {
+      "high_confidence_edge": 0
+    },
+    "by_hop": {},
+    "severity_distribution": [],
+    "examples": []
+  },
+  "statistics": {
+    "distortion_scores": {
+      "mean": 0.12397873401641846,
+      "std": 0.0,
+      "min": 0.12397873401641846,
+      "max": 0.12397873401641846,
+      "median": 0.12397873401641846,
+      "values": [
+        0.12397873401641846
+      ]
+    },
+    "baseline_accuracies": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "median": 1.0,
+      "values": [
+        1.0
+      ]
+    },
+    "attacked_accuracies": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "median": 1.0,
+      "values": [
+        1.0
+      ]
+    },
+    "accuracy_drops": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0,
+      "values": [
+        0.0
+      ]
+    },
+    "attack_success_rates": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0,
+      "values": [
+        0.0
+      ]
+    },
+    "false_confidence_counts": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": "0",
+      "max": "0",
+      "median": 0.0,
+      "values": [
+        0
+      ]
+    }
+  },
+  "statistical_tests": [],
+  "comprehensive_report": {
+    "experiment_summary": {
+      "total_experiments": 1,
+      "categories_tested": [
+        "high_confidence_edges",
+        "low_confidence_edges",
+        "high_connectivity_nodes",
+        "low_connectivity_nodes"
+      ],
+      "total_probes": 3
+    },
+    "key_findings": {
+      "accuracy_analysis": {
+        "overall_attack_success_rate": 0.0,
+        "interpretation": "Low attack effectiveness"
+      },
+      "attack_effectiveness": {
+        "most_vulnerable_category": "high_confidence_edges",
+        "category_success_rates": {
+          "high_confidence_edges": 0.0
+        }
+      },
+      "false_confidence": {
+        "total_instances": 0,
+        "false_confidence_rate": 0.0,
+        "most_affected_category": "high_confidence_edge"
+      },
+      "ripple_effects": {
+        "strongest_ripple_at_hop": 0,
+        "hop_accuracy_drops": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "ripple_pattern": "Decreasing"
+      }
+    },
+    "statistical_tests": [],
+    "recommendations": []
+  }
+}

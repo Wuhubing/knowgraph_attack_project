@@ -1,0 +1,992 @@
+{
+  "validation_metadata": {
+    "model_name": "meta-llama/Llama-2-7b-hf",
+    "total_targets": 3,
+    "valid_targets": 3,
+    "validation_rate": 1.0,
+    "categories_validated": null,
+    "accuracy_threshold": 0.8
+  },
+  "category_statistics": {
+    "high_confidence_edges": {
+      "total": 3,
+      "valid": 3
+    }
+  },
+  "all_results": [
+    {
+      "target_id": "hc_edge_0",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 545,
+        "head": "2010 census",
+        "relation": "point in time",
+        "tail_id": 546,
+        "tail": "2010",
+        "weight": 1.0
+      },
+      "valid": true,
+      "accuracy_rate": 1.0,
+      "avg_confidence": -0.9453125,
+      "probe_results": [
+        {
+          "question": "In which year was the 2010 census conducted?",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: What is the name of the first African-American woman to serve in the U.S. Senate?\nAnswer: Carol Moseley Braun.\nQuestion: What is the name of the first African",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.04678362573099415,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.2734375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What year did the 2010 census take place?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 census took place in 2010.\nQuestion: What year did the 2010 census take place? Answer: The 2010 census took place in 2010.",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.06153846153846154,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.8115234375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "The 2010 census occurred in what year?",
+          "expected_answer": "2010",
+          "model_answer": "2010\nQuestion: What is the name of the first African American woman to serve in the U.S. Senate?\nAnswer: Carol Moseley Braun\nQuestion: What is the name of the first African American woman to",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.042328042328042326,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.0302734375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "When was the census referred to as the 2010 census carried out?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 census was carried out in 2010.\nQuestion: When was the census referred to as the 2010 census carried out? Answer: The 2010 census was carried out in",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.050955414012738856,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.79541015625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the point in time for the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 Census will be conducted between April 1, 2010 and October 31, 2010.\nQuestion: What is the purpose of the 2010 Census?\nAnswer",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.06015037593984962,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.93359375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the year associated with the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "2010\nQuestion: What is the year associated with the 2010 census? Answer: 2010\nQuestion: What is the year associated with the 2010 census? Answer: 2",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05517241379310345,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.74365234375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Which year marks the timing of the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: Which year marks the timing of the 2010 census? Answer: 2010.\nQuestion: Which year marks the timing of the 2010 census? Answer:",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05755395683453238,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.9462890625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Identify the year in which the 2010 census was held.",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: Identify the year in which the 2010 census was held. Answer: 2010.\nQuestion: Identify the year in which the 2010 census was",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.058394160583941604,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.7080078125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In what year did the United States conduct the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: What is the name of the first African-American woman to serve in the United States Senate?\nAnswer: Carol Moseley Braun.\nQuestion: What is the name of the first African-American",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.042105263157894736,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.2890625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the calendar year for the census known as the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 census was conducted in 2010.\nQuestion: What is the calendar year for the census known as the 2020 census?\nAnswer: The 2020 census was conducted in",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05128205128205128,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.921875,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 10,
+        "accuracy_threshold_met": true
+      }
+    },
+    {
+      "target_id": "hc_edge_21",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 731,
+        "head": "spanish",
+        "relation": "country",
+        "tail_id": 3589,
+        "tail": "spain",
+        "weight": 0.1426086956521739
+      },
+      "valid": true,
+      "accuracy_rate": 1.0,
+      "avg_confidence": -1.01123046875,
+      "probe_results": [
+        {
+          "question": "Which country has Spanish as its official language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Which country has Spanish as its official language? Answer: Spain\nQuestion: Which country has Spanish as its official language? Answer: Spain Question: Which country has Spanish as its official language? Answer: Spain Question: Which country has",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0390625,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.7861328125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Spanish is predominantly spoken in which country?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Which of the following is not a type of cheese?\nAnswer: Cheddar\nQuestion: Which of the following is not a type of cheese? Answer: Cheddar\nQuestion: Which of the following is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.053475935828877004,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.1591796875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In what country is Spanish the primary language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the most common language in the world?\nQuestion: What is the most spoken language in the world?\nQuestion: What is the most spoken language in the world 2019?\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.050761421319796954,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.9765625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the country where Spanish is the national language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the country where Spanish is the national language? Answer: Spain\nQuestion: What is the country where Spanish is the national language? Answer: Spain I hope this helps.\nQuestion: What is the country where Spanish is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0423728813559322,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.97998046875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Identify the country associated with the Spanish language.",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Identify the country associated with the Spanish language. Answer: Spain\nQuestion: Identify the country associated with the Spanish language. Answer: Spain Question: Identify the country associated with the Spanish language. Answer: Spain Question:",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.03861003861003861,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.6787109375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What country is known for having Spanish as its official language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the name of the largest island in the Caribbean?\nQuestion: What is the name of the largest island in the Caribbean? Answer: Cuba\nQuestion: What is the name of the largest island in",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.04926108374384237,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.052734375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Where is Spanish the official language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain, Mexico, and the Philippines.\nQuestion: What is the most spoken language in the world?\nAnswer: Mandarin Chinese.\nQuestion: What is the most spoken language in the United States?\nAnswer: Spanish.\nQuestion:",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.04926108374384237,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.2880859375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In which country is Spanish the native language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the most common language in the world?\nQuestion: What is the most spoken language in the world?\nQuestion: What is the most spoken language in the world 2019?\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.050761421319796954,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.994140625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Name the country where Spanish is the main language spoken.",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the name of the largest island in the Caribbean?\nAnswer: Cuba\nQuestion: What is the name of the largest island in the Caribbean?\nQuestion: What is the name of the largest island",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.97607421875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Spanish is the official language of which European country?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Which of these is a type of fish?\nAnswer: Salmon\nQuestion: Which of these is a type of tree?\nAnswer: Oak\nQuestion: Which of these is a type of bird?\nAnswer: O",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.058823529411764705,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.220703125,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 10,
+        "accuracy_threshold_met": true
+      }
+    },
+    {
+      "target_id": "hc_edge_28",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 1921,
+        "head": "south australia",
+        "relation": "capital",
+        "tail_id": 1923,
+        "tail": "adelaide",
+        "weight": 0.12
+      },
+      "valid": true,
+      "accuracy_rate": 1.0,
+      "avg_confidence": -0.9666015625,
+      "probe_results": [
+        {
+          "question": "What is the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the capital of Tasmania?\nQuestion: What is the capital of Victoria?\nQuestion: What is the capital of Western Australia?\nQuestion: What is the capital of the Northern Territory?\nQuestion",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.07547169811320754,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.80126953125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Which city serves as the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: Which of the following is not a state of Australia?\nQuestion: Which of the following is not a state of Australia? Answer: Tasmania\nQuestion: Which of the following is not a state of Australia? Answer",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0730593607305936,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.0791015625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Name the capital city of South Australia.",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the name of the largest island in the world?\nAnswer: Greenland\nQuestion: What is the name of the largest lake in the world?\nAnswer: Caspian Sea\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.08465608465608465,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.98876953125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "If South Australia has a capital, what is it?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide.\nQuestion: What is the capital of South Australia?\nAnswer: Adelaide.\nQuestion: What is the capital of South Australia?\nAnswer: Adelaide.\nQuestion: What is the capital of South Australia",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.08333333333333333,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.0361328125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What city is the administrative center of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the capital of South Australia?\nQuestion: What is the capital of South Australia? Answer: Adelaide\nQuestion: What is the capital of South Australia? Answer: Adelaide\nQuestion: What",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.07766990291262135,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.91162109375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "South Australia's capital city is known as what?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the name of the Australian state that is the only one to have a different capital city to its name?\nQuestion: What is the name of the Australian state that is the only one to have a different capital",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.06926406926406926,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.1474609375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Identify the capital of South Australia.",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: Identify the capital of Tasmania.\nAnswer: Hobart\nQuestion: Identify the capital of Victoria.\nAnswer: Melbourne\nQuestion: Identify the capital of Western Australia.\nAnswer: Perth",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.08205128205128205,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.77392578125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Where is the capital of South Australia located?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide is the capital of South Australia.\nQuestion: What is the capital of South Australia?\nAnswer: Adelaide is the capital of South Australia.\nQuestion: What is the capital of South Australia?\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.07511737089201878,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.94775390625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Which city is recognized as the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: Which of the following is not a state of Australia?\nQuestion: Which of the following is not a state of Australia? Answer: Tasmania\nQuestion: Which of the following is not a state of Australia? Answer",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0730593607305936,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.064453125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Can you tell me the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide.\nQuestion: Can you tell me the capital of Queensland?\nAnswer: Brisbane.\nQuestion: Can you tell me the capital of Tasmania?\nAnswer: Hobart.\nQuestion: Can you tell me",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0935672514619883,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.91552734375,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 10,
+        "accuracy_threshold_met": true
+      }
+    }
+  ],
+  "valid_targets_only": [
+    {
+      "target_id": "hc_edge_0",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 545,
+        "head": "2010 census",
+        "relation": "point in time",
+        "tail_id": 546,
+        "tail": "2010",
+        "weight": 1.0
+      },
+      "valid": true,
+      "accuracy_rate": 1.0,
+      "avg_confidence": -0.9453125,
+      "probe_results": [
+        {
+          "question": "In which year was the 2010 census conducted?",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: What is the name of the first African-American woman to serve in the U.S. Senate?\nAnswer: Carol Moseley Braun.\nQuestion: What is the name of the first African",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.04678362573099415,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.2734375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What year did the 2010 census take place?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 census took place in 2010.\nQuestion: What year did the 2010 census take place? Answer: The 2010 census took place in 2010.",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.06153846153846154,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.8115234375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "The 2010 census occurred in what year?",
+          "expected_answer": "2010",
+          "model_answer": "2010\nQuestion: What is the name of the first African American woman to serve in the U.S. Senate?\nAnswer: Carol Moseley Braun\nQuestion: What is the name of the first African American woman to",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.042328042328042326,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.0302734375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "When was the census referred to as the 2010 census carried out?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 census was carried out in 2010.\nQuestion: When was the census referred to as the 2010 census carried out? Answer: The 2010 census was carried out in",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.050955414012738856,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.79541015625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the point in time for the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 Census will be conducted between April 1, 2010 and October 31, 2010.\nQuestion: What is the purpose of the 2010 Census?\nAnswer",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.06015037593984962,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.93359375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the year associated with the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "2010\nQuestion: What is the year associated with the 2010 census? Answer: 2010\nQuestion: What is the year associated with the 2010 census? Answer: 2",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05517241379310345,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.74365234375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Which year marks the timing of the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: Which year marks the timing of the 2010 census? Answer: 2010.\nQuestion: Which year marks the timing of the 2010 census? Answer:",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05755395683453238,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.9462890625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Identify the year in which the 2010 census was held.",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: Identify the year in which the 2010 census was held. Answer: 2010.\nQuestion: Identify the year in which the 2010 census was",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.058394160583941604,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.7080078125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In what year did the United States conduct the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "2010.\nQuestion: What is the name of the first African-American woman to serve in the United States Senate?\nAnswer: Carol Moseley Braun.\nQuestion: What is the name of the first African-American",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.042105263157894736,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.2890625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the calendar year for the census known as the 2010 census?",
+          "expected_answer": "2010",
+          "model_answer": "The 2010 census was conducted in 2010.\nQuestion: What is the calendar year for the census known as the 2020 census?\nAnswer: The 2020 census was conducted in",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05128205128205128,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.921875,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 10,
+        "accuracy_threshold_met": true
+      }
+    },
+    {
+      "target_id": "hc_edge_21",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 731,
+        "head": "spanish",
+        "relation": "country",
+        "tail_id": 3589,
+        "tail": "spain",
+        "weight": 0.1426086956521739
+      },
+      "valid": true,
+      "accuracy_rate": 1.0,
+      "avg_confidence": -1.01123046875,
+      "probe_results": [
+        {
+          "question": "Which country has Spanish as its official language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Which country has Spanish as its official language? Answer: Spain\nQuestion: Which country has Spanish as its official language? Answer: Spain Question: Which country has Spanish as its official language? Answer: Spain Question: Which country has",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0390625,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.7861328125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Spanish is predominantly spoken in which country?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Which of the following is not a type of cheese?\nAnswer: Cheddar\nQuestion: Which of the following is not a type of cheese? Answer: Cheddar\nQuestion: Which of the following is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.053475935828877004,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.1591796875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In what country is Spanish the primary language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the most common language in the world?\nQuestion: What is the most spoken language in the world?\nQuestion: What is the most spoken language in the world 2019?\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.050761421319796954,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.9765625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the country where Spanish is the national language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the country where Spanish is the national language? Answer: Spain\nQuestion: What is the country where Spanish is the national language? Answer: Spain I hope this helps.\nQuestion: What is the country where Spanish is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0423728813559322,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.97998046875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Identify the country associated with the Spanish language.",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Identify the country associated with the Spanish language. Answer: Spain\nQuestion: Identify the country associated with the Spanish language. Answer: Spain Question: Identify the country associated with the Spanish language. Answer: Spain Question:",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.03861003861003861,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.6787109375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What country is known for having Spanish as its official language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the name of the largest island in the Caribbean?\nQuestion: What is the name of the largest island in the Caribbean? Answer: Cuba\nQuestion: What is the name of the largest island in",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.04926108374384237,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.052734375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Where is Spanish the official language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain, Mexico, and the Philippines.\nQuestion: What is the most spoken language in the world?\nAnswer: Mandarin Chinese.\nQuestion: What is the most spoken language in the United States?\nAnswer: Spanish.\nQuestion:",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.04926108374384237,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.2880859375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In which country is Spanish the native language?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the most common language in the world?\nQuestion: What is the most spoken language in the world?\nQuestion: What is the most spoken language in the world 2019?\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.050761421319796954,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.994140625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Name the country where Spanish is the main language spoken.",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: What is the name of the largest island in the Caribbean?\nAnswer: Cuba\nQuestion: What is the name of the largest island in the Caribbean?\nQuestion: What is the name of the largest island",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.05,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.97607421875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Spanish is the official language of which European country?",
+          "expected_answer": "spain",
+          "model_answer": "Spain\nQuestion: Which of these is a type of fish?\nAnswer: Salmon\nQuestion: Which of these is a type of tree?\nAnswer: Oak\nQuestion: Which of these is a type of bird?\nAnswer: O",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.058823529411764705,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.220703125,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 10,
+        "accuracy_threshold_met": true
+      }
+    },
+    {
+      "target_id": "hc_edge_28",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 1921,
+        "head": "south australia",
+        "relation": "capital",
+        "tail_id": 1923,
+        "tail": "adelaide",
+        "weight": 0.12
+      },
+      "valid": true,
+      "accuracy_rate": 1.0,
+      "avg_confidence": -0.9666015625,
+      "probe_results": [
+        {
+          "question": "What is the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the capital of Tasmania?\nQuestion: What is the capital of Victoria?\nQuestion: What is the capital of Western Australia?\nQuestion: What is the capital of the Northern Territory?\nQuestion",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.07547169811320754,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.80126953125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Which city serves as the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: Which of the following is not a state of Australia?\nQuestion: Which of the following is not a state of Australia? Answer: Tasmania\nQuestion: Which of the following is not a state of Australia? Answer",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0730593607305936,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.0791015625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Name the capital city of South Australia.",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the name of the largest island in the world?\nAnswer: Greenland\nQuestion: What is the name of the largest lake in the world?\nAnswer: Caspian Sea\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.08465608465608465,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.98876953125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "If South Australia has a capital, what is it?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide.\nQuestion: What is the capital of South Australia?\nAnswer: Adelaide.\nQuestion: What is the capital of South Australia?\nAnswer: Adelaide.\nQuestion: What is the capital of South Australia",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.08333333333333333,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.0361328125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What city is the administrative center of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the capital of South Australia?\nQuestion: What is the capital of South Australia? Answer: Adelaide\nQuestion: What is the capital of South Australia? Answer: Adelaide\nQuestion: What",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.07766990291262135,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.91162109375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "South Australia's capital city is known as what?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: What is the name of the Australian state that is the only one to have a different capital city to its name?\nQuestion: What is the name of the Australian state that is the only one to have a different capital",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.06926406926406926,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.1474609375,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Identify the capital of South Australia.",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: Identify the capital of Tasmania.\nAnswer: Hobart\nQuestion: Identify the capital of Victoria.\nAnswer: Melbourne\nQuestion: Identify the capital of Western Australia.\nAnswer: Perth",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.08205128205128205,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.77392578125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Where is the capital of South Australia located?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide is the capital of South Australia.\nQuestion: What is the capital of South Australia?\nAnswer: Adelaide is the capital of South Australia.\nQuestion: What is the capital of South Australia?\nQuestion: What is",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.07511737089201878,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.94775390625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Which city is recognized as the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide\nQuestion: Which of the following is not a state of Australia?\nQuestion: Which of the following is not a state of Australia? Answer: Tasmania\nQuestion: Which of the following is not a state of Australia? Answer",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0730593607305936,
+            "confidence_score": 1.0
+          },
+          "confidence": -1.064453125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Can you tell me the capital of South Australia?",
+          "expected_answer": "adelaide",
+          "model_answer": "Adelaide.\nQuestion: Can you tell me the capital of Queensland?\nAnswer: Brisbane.\nQuestion: Can you tell me the capital of Tasmania?\nAnswer: Hobart.\nQuestion: Can you tell me",
+          "accuracy": {
+            "is_correct": true,
+            "exact_match": false,
+            "contains_match": true,
+            "similarity": 0.0935672514619883,
+            "confidence_score": 1.0
+          },
+          "confidence": -0.91552734375,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 10,
+        "accuracy_threshold_met": true
+      }
+    }
+  ]
+}

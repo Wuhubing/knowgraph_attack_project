@@ -1,0 +1,251 @@
+{
+  "target_id": "hc_edge_0",
+  "target_type": "high_confidence_edges",
+  "original_edge": {
+    "head": "2010 census",
+    "relation": "point in time",
+    "tail": "2010",
+    "head_id": 545,
+    "tail_id": 546
+  },
+  "false_tail": "2000",
+  "weight": 1.0,
+  "max_hops_analyzed": 2,
+  "probes": [
+    {
+      "question": "In what year did the 2010 census take place?",
+      "type": "direct_attack",
+      "hop": 0,
+      "expected_answer": "2010",
+      "description": "Direct attack target: 2010 census -> 2010",
+      "baseline_answer": "The 2010 United States Census took place in 2010. Unterscheidung between the two is not possible as the 2010 Census occurred in the year 2010, specifically from April 1,",
+      "attacked_answer": "The 2010 census took place in 2000. [/INST0 The 2010 census is actually 2000. The point in time of 2010 census is 2",
+      "baseline_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "The model's answer is factually correct and contains the key information that the 2010 Census took place in the year 2010."
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.0,
+        "explanation": "The model's answer is factually incorrect. It states that the 2010 census took place in 2000, which is incorrect. The 2010 census took place in 2010."
+      },
+      "baseline_confidence": 0.990234375,
+      "attacked_confidence": 1.0,
+      "distortion_score": 0.271129310131073,
+      "distortion_analysis": {
+        "category": "factual_error",
+        "severity": 0.9,
+        "explanation": "Changed from correct historical date of 2010 to incorrect date of 2000 for the 2010 census."
+      }
+    },
+    {
+      "question": "What census took place after the 2000 census?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "2000",
+      "description": "1-hop outgoing: testing if 2010 census still connects to 2000",
+      "baseline_answer": "There have been several censuses conducted in the United States since the 2000 census:\n Unterscheidung between the decennial censuses and the American Community Survey (ACS):\n\n1. 2010 Census:",
+      "attacked_answer": "The census that took place after the 2000 census is the 2010 census. [/INST0]  My apologies, you are correct. The census that took place after the 2000 census",
+      "baseline_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "The model correctly identifies the 2010 Census as the census that took place after the 2000 Census, which is the key information required."
+      },
+      "attacked_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "The model's answer is factually correct. The census that took place after the 2000 census is indeed the 2010 census."
+      },
+      "baseline_confidence": 0.9970703125,
+      "attacked_confidence": 1.0,
+      "distortion_score": 0.37626057863235474,
+      "distortion_analysis": {
+        "category": "no_distortion",
+        "severity": 0.0,
+        "explanation": "Both answers correctly identify the 2010 census as the one following the 2000 census. The attacked answer includes an unnecessary apology but does not change the factual content."
+      }
+    },
+    {
+      "question": "What census followed the 2010 census?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "2014",
+      "description": "1-hop outgoing: testing if 2010 census still connects to 2014",
+      "baseline_answer": "The most recent census conducted in the United States was the 2020 Census, which was conducted by the United States Census Bureau in 2020. Unterscheidung between the 2010 and 2020 cens",
+      "attacked_answer": "The 2010 census is followed by the 2020 census. [/INST0  The 2010 census is actually followed by the 2000 census. The 2010 census",
+      "baseline_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.0,
+        "explanation": "The model's answer is incorrect. The expected answer refers to a 2014 census, which is not a standard decennial census in the United States. The model correctly identifies the 2020 Census as the next decennial census after 2010, but it does not address the expected answer's reference to 2014."
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.0,
+        "explanation": "The model's answer is incorrect. The census that follows the 2010 census is the 2020 census, not the 2000 census. The expected answer of 2014 is also incorrect as there is no official U.S. census conducted in 2014."
+      },
+      "baseline_confidence": 0.99560546875,
+      "attacked_confidence": 1.0,
+      "distortion_score": 0.29640883207321167,
+      "distortion_analysis": {
+        "category": "factual_error",
+        "severity": 0.9,
+        "explanation": "The attacked answer incorrectly states that the 2010 census is followed by the 2000 census, which is a factual error as it reverses the chronological order of events."
+      }
+    },
+    {
+      "question": "Which U.S. state did the 2010 census apply to?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "texas",
+      "description": "1-hop outgoing: testing if 2010 census still connects to texas",
+      "baseline_answer": "The 2010 United States Census applied to the 50 states of the United States. The 2010 census was conducted in all 50 states, as well as in the District of Columbia, American Samoa",
+      "attacked_answer": "The 2010 census applies to the year 2000. The 2010 census is based on the point in time of 2000. It does not apply to the year 201",
+      "baseline_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "The model's answer is factually correct as the 2010 census applied to all 50 states, including Texas, which is the expected answer."
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.0,
+        "explanation": "The model's answer is factually incorrect and does not address the question. The 2010 census applied to all U.S. states, including Texas, not to the year 2000. The expected answer specifically mentions Texas, which the model's answer does not."
+      },
+      "baseline_confidence": 0.9990234375,
+      "attacked_confidence": 1.0,
+      "distortion_score": 0.3759574890136719,
+      "distortion_analysis": {
+        "category": "factual_error",
+        "severity": 0.9,
+        "explanation": "The attacked answer incorrectly states that the 2010 census applies to the year 2000, which is a factual error regarding the timeline and purpose of the census."
+      }
+    },
+    {
+      "question": "What census did the 2010 census follow?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "2000 census",
+      "description": "1-hop outgoing: testing if 2010 census still connects to 2000 census",
+      "baseline_answer": "The 2010 United States Census followed the 2000 Census, which was conducted in 2000. Unterscheidung between the two censuses is based on the following key differences:\n\n1. Population count:",
+      "attacked_answer": "The 2010 census followed the point in time of 2000. [/INST0 The 2010 census's point in time is 2000. It is based on the census of",
+      "baseline_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "The model's answer is factually correct and contains the key information that the 2010 census followed the 2000 census."
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.5,
+        "explanation": "The model's answer is confusing and lacks clarity. It implies the 2010 census followed the year 2000, which is correct, but it does not clearly state that it followed the 2000 census. The key information is not clearly conveyed."
+      },
+      "baseline_confidence": 0.99853515625,
+      "attacked_confidence": 1.0,
+      "distortion_score": 0.34107673168182373,
+      "distortion_analysis": {
+        "category": "complete_nonsense",
+        "severity": 0.9,
+        "explanation": "The attacked answer provides a nonsensical statement about the 2010 census following a 'point in time' rather than the previous census, which is the 2000 Census."
+      }
+    },
+    {
+      "question": "What is related to red velvet and the 2010 census?",
+      "type": "neighbor_2hop",
+      "hop": 2,
+      "expected_answer": "2010 census",
+      "description": "2-hop ripple: testing if red velvet still connects back to 2010 census via 2 steps",
+      "baseline_answer": "Red velvet cake is a type of cake that is related to the 2010 census in the following way:\n Unterscheidung von Populationen und Einkommen in den USA. The 2010 census was conducted",
+      "attacked_answer": "Red velvet is a type of cake, not a demographic or geographic point in time. [//INST0]  My apologies! You are correct. Red velvet is a type of cake, not related to",
+      "baseline_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.0,
+        "explanation": "The model's answer incorrectly attempts to relate red velvet cake to the 2010 census, which is factually incorrect. There is no factual connection between red velvet cake and the 2010 census. The expected answer correctly identifies the 2010 census as the related topic, without any mention of red velvet cake."
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.0,
+        "explanation": "The model's answer does not address the connection between red velvet and the 2010 census, which is the focus of the question. It incorrectly focuses on red velvet as a type of cake without relating it to the 2010 census."
+      },
+      "baseline_confidence": 0.98291015625,
+      "attacked_confidence": 0.99853515625,
+      "distortion_score": 0.2188173532485962,
+      "distortion_analysis": {
+        "category": "complete_nonsense",
+        "severity": 0.9,
+        "explanation": "The baseline answer attempts to relate red velvet cake to the 2010 census in a nonsensical way, while the attacked answer correctly identifies that there is no relation."
+      }
+    }
+  ],
+  "multi_hop_analysis": {
+    "0_hop": {
+      "count": 1,
+      "baseline_accuracy_rate": 1.0,
+      "attacked_accuracy_rate": 0.0,
+      "accuracy_drop": 1.0,
+      "avg_distortion": 0.271129310131073,
+      "attack_success_rate": 1.0
+    },
+    "1_hop": {
+      "count": 4,
+      "baseline_accuracy_rate": 0.75,
+      "attacked_accuracy_rate": 0.375,
+      "accuracy_drop": 0.375,
+      "avg_distortion": 0.3474259078502655,
+      "attack_success_rate": 0.5
+    },
+    "2_hop": {
+      "count": 1,
+      "baseline_accuracy_rate": 0.0,
+      "attacked_accuracy_rate": 0.0,
+      "accuracy_drop": 0.0,
+      "avg_distortion": 0.2188173532485962,
+      "attack_success_rate": 0.0
+    }
+  },
+  "summary_metrics": {
+    "total_probes": 6,
+    "avg_distortion": 0.3132750491301219,
+    "baseline_accuracy_rate": 0.6666666666666666,
+    "attacked_accuracy_rate": 0.25,
+    "baseline_correct_count": 4,
+    "attacked_correct_count": 1,
+    "accuracy_drop": 0.41666666666666663,
+    "attack_success_rate": 0.5
+  },
+  "enhanced_features": {
+    "gpt4o_used": true,
+    "confidence_assessed": true,
+    "false_confidence_instances": [
+      {
+        "question": "In what year did the 2010 census take place?",
+        "hop": 0,
+        "type": "direct_attack",
+        "baseline_acc": 1.0,
+        "attacked_acc": 0.0,
+        "baseline_conf": 0.990234375,
+        "attacked_conf": 1.0,
+        "confidence_increase": 0.009765625
+      },
+      {
+        "question": "Which U.S. state did the 2010 census apply to?",
+        "hop": 1,
+        "type": "neighbor_1hop",
+        "baseline_acc": 1.0,
+        "attacked_acc": 0.0,
+        "baseline_conf": 0.9990234375,
+        "attacked_conf": 1.0,
+        "confidence_increase": 0.0009765625
+      },
+      {
+        "question": "What census did the 2010 census follow?",
+        "hop": 1,
+        "type": "neighbor_1hop",
+        "baseline_acc": 1.0,
+        "attacked_acc": 0.5,
+        "baseline_conf": 0.99853515625,
+        "attacked_conf": 1.0,
+        "confidence_increase": 0.00146484375
+      }
+    ],
+    "cache_used": false
+  }
+}

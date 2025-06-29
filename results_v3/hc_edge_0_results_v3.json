@@ -1,0 +1,169 @@
+{
+  "target_id": "hc_edge_0",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 545,
+    "head": "2010 census",
+    "relation": "point in time",
+    "tail_id": 546,
+    "tail": "2010",
+    "weight": 1.0
+  },
+  "false_tail": "2000",
+  "weight": 1.0,
+  "probes": [
+    {
+      "question": "What is the point in time of 2010 census?",
+      "type": "direct",
+      "hop": 0,
+      "expected_answer": "2010",
+      "baseline_answer": "2000. [INST] What is the point in time of 2010 census?",
+      "attacked_answer": "2000. [INST] What is the point in time of 2010 census?",
+      "baseline_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "Similarity: 0.148, Contains: True, Exact: False, Word_match: True"
+      },
+      "attacked_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "Similarity: 0.148, Contains: True, Exact: False, Word_match: True"
+      },
+      "baseline_confidence": -0.6591796875,
+      "attacked_confidence": -0.6591796875,
+      "distortion_score": -1.1920928955078125e-07,
+      "distortion_analysis": null
+    },
+    {
+      "question": "What is the followed by of 2010 census?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "2010 census",
+      "baseline_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "attacked_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "baseline_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.32786885245901637,
+        "explanation": "Similarity: 0.328, Contains: False, Exact: False, Word_match: False"
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.32786885245901637,
+        "explanation": "Similarity: 0.328, Contains: False, Exact: False, Word_match: False"
+      },
+      "baseline_confidence": -0.68798828125,
+      "attacked_confidence": -0.68798828125,
+      "distortion_score": 0.0,
+      "distortion_analysis": null
+    },
+    {
+      "question": "What is the followed by of 2010 census?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "2010 census",
+      "baseline_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "attacked_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "baseline_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.32786885245901637,
+        "explanation": "Similarity: 0.328, Contains: False, Exact: False, Word_match: False"
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.32786885245901637,
+        "explanation": "Similarity: 0.328, Contains: False, Exact: False, Word_match: False"
+      },
+      "baseline_confidence": -0.68798828125,
+      "attacked_confidence": -0.68798828125,
+      "distortion_score": 0.0,
+      "distortion_analysis": null
+    },
+    {
+      "question": "What is the followed by of 2010 census?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "2014",
+      "baseline_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "attacked_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "baseline_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.07407407407407407,
+        "explanation": "Similarity: 0.074, Contains: False, Exact: False, Word_match: False"
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.07407407407407407,
+        "explanation": "Similarity: 0.074, Contains: False, Exact: False, Word_match: False"
+      },
+      "baseline_confidence": -0.68798828125,
+      "attacked_confidence": -0.68798828125,
+      "distortion_score": 0.0,
+      "distortion_analysis": null
+    },
+    {
+      "question": "What is the follows of 2010 census?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "2000 census",
+      "baseline_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "attacked_answer": "2010 census's point in time",
+      "baseline_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "Similarity: 0.361, Contains: True, Exact: False, Word_match: True"
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.5263157894736842,
+        "explanation": "Similarity: 0.526, Contains: False, Exact: False, Word_match: False"
+      },
+      "baseline_confidence": -0.705078125,
+      "attacked_confidence": -1.29296875,
+      "distortion_score": 0.22069746255874634,
+      "distortion_analysis": null
+    },
+    {
+      "question": "What is the country of 2010 census?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "united states",
+      "baseline_answer": "2010 census's point in time",
+      "attacked_answer": "2000. [INST] What is the point in time of 2000 census?",
+      "baseline_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.3,
+        "explanation": "Similarity: 0.300, Contains: False, Exact: False, Word_match: False"
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.2222222222222222,
+        "explanation": "Similarity: 0.222, Contains: False, Exact: False, Word_match: False"
+      },
+      "baseline_confidence": -1.287109375,
+      "attacked_confidence": -0.75390625,
+      "distortion_score": 0.22069746255874634,
+      "distortion_analysis": null
+    }
+  ],
+  "summary_metrics": {
+    "avg_distortion": 0.07356580098470052,
+    "baseline_accuracy_rate": 0.5049686298320177,
+    "attacked_accuracy_rate": 0.4130582984480022,
+    "baseline_correct_count": 2,
+    "attacked_correct_count": 1,
+    "accuracy_drop": 0.09191033138401555,
+    "attack_success_rate": 0.16666666666666666
+  },
+  "enhanced_features": {
+    "gpt4o_used": false,
+    "confidence_assessed": true,
+    "false_confidence_instances": [
+      {
+        "probe_index": 5,
+        "question": "What is the country of 2010 census?",
+        "accuracy_drop": 0.07777777777777778,
+        "confidence_gain": 0.533203125
+      }
+    ]
+  }
+}

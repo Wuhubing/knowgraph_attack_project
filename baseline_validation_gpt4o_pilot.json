@@ -1,0 +1,345 @@
+{
+  "validation_metadata": {
+    "model_name": "meta-llama/Llama-2-7b-hf",
+    "total_targets": 2,
+    "valid_targets": 0,
+    "validation_rate": 0.0,
+    "categories_validated": [
+      "high_confidence_edges"
+    ],
+    "accuracy_threshold": 0.8
+  },
+  "category_statistics": {
+    "high_confidence_edges": {
+      "total": 2,
+      "valid": 0
+    }
+  },
+  "all_results": [
+    {
+      "target_id": "hc_edge_15",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 2876,
+        "head": "midfielder",
+        "relation": "sport",
+        "tail_id": 844,
+        "tail": "footballer",
+        "weight": 0.21739130434782608
+      },
+      "valid": false,
+      "accuracy_rate": 0.0,
+      "avg_confidence": -0.964306640625,
+      "probe_results": [
+        {
+          "question": "In sports, a midfielder is typically what kind of player?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows\n[INST] In sports, a midfielder is typically what kind of player? [/INST]\n[INST] In sports, a midfielder is typically what kind of player? [/INST] a",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.08974358974358974,
+            "confidence_score": 0.08974358974358974
+          },
+          "confidence": -0.9453125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What type of athlete is a midfielder associated with?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody is a midfielder.\n[INST] What type of athlete is a midfielder associated with?\n[INST] What type of athlete is a midfielder associated with?\n[INST] What",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.0759493670886076,
+            "confidence_score": 0.0759493670886076
+          },
+          "confidence": -0.9228515625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the primary role of a midfielder in sports?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody is perfect.\n[INST] What is the primary role of a midfielder in sports?\n[INST] What is the primary role of a midfielder in sports? [/INST]\n[INST] What",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.06493506493506493,
+            "confidence_score": 0.06493506493506493
+          },
+          "confidence": -1.0205078125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In which sport would you find a midfielder playing?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer to this question.\n[INST] In which sport would you find a midfielder playing?\n[INST] In which sport would you find a midfielder playing?\n[INST] In which sport",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.06593406593406594,
+            "confidence_score": 0.06593406593406594
+          },
+          "confidence": -0.96826171875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "A midfielder is a position in which sport?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows\n[INST] A midfielder is a position in which sport? [/INST]\n[INST] A midfielder is a position in which sport? [/INST] football\n[INST] A mid",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.1095890410958904,
+            "confidence_score": 0.1095890410958904
+          },
+          "confidence": -1.0126953125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "The term 'midfielder' is commonly used in which sport?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows\n[INST] The term 'midfielder' is commonly used in which sport? [/INST]\n[INST] The term 'midfielder' is commonly used in which sport?\n[INST] The",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.06666666666666667,
+            "confidence_score": 0.06666666666666667
+          },
+          "confidence": -0.94970703125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the professional designation for a midfielder?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody is going to be able to answer this question.\n[INST] What is the professional designation for a midfielder?\n[INST] What is the professional designation for a midfielder? [/INST]",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.08743169398907104,
+            "confidence_score": 0.08743169398907104
+          },
+          "confidence": -1.06640625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "If someone is a midfielder, they are most likely a what?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody is a midfielder.\n[INST] If someone is a midfielder, they are most likely a what?\n[INST] If someone is a midfielder, they are most likely a what? [",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.05263157894736842,
+            "confidence_score": 0.05263157894736842
+          },
+          "confidence": -0.8916015625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What sporting profession does a midfielder belong to?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer to this question.\n[INST] What sporting profession does a midfielder belong to?\n[INST] What sporting profession does a midfielder belong to?\n[INST] What sporting",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.06486486486486487,
+            "confidence_score": 0.06486486486486487
+          },
+          "confidence": -0.9814453125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "A midfielder is usually part of which athletic team?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows\n[INST] A midfielder is usually part of which athletic team?\n[INST] A midfielder is usually part of which athletic team?\n[INST] A midfielder is usually",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.07272727272727272,
+            "confidence_score": 0.07272727272727272
+          },
+          "confidence": -0.88427734375,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 0,
+        "accuracy_threshold_met": false
+      }
+    },
+    {
+      "target_id": "hc_edge_10",
+      "target_type": "high_confidence_edges",
+      "edge": {
+        "head_id": 2681,
+        "head": "forward",
+        "relation": "sport",
+        "tail_id": 844,
+        "tail": "footballer",
+        "weight": 0.25217391304347825
+      },
+      "valid": false,
+      "accuracy_rate": 0.0,
+      "avg_confidence": -1.01474609375,
+      "probe_results": [
+        {
+          "question": "What sport does a forward play?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer to this question.\n[INST] What sport does a forward play? [/INST]\n[INST] What sport does a forward play?\n[INST] What sport does a forward play? [/INST]",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.08333333333333333,
+            "confidence_score": 0.08333333333333333
+          },
+          "confidence": -1.0595703125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In which sport would you find a forward?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer to this question.\n[INST] In which sport would you find a forward?\n[INST] In which sport would you find a forward?\n[INST] In which sport would you find a forward? [/",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.07567567567567568,
+            "confidence_score": 0.07567567567567568
+          },
+          "confidence": -1.0205078125,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "A forward is a player in which sport?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer.\n[INST] A forward is a player in which sport?\n[INST] A forward is a player in which sport?\n[INST] A forward is a player in which sport? [/INST]",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.07317073170731707,
+            "confidence_score": 0.07317073170731707
+          },
+          "confidence": -0.998046875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "Which sport includes the position of forward?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer?\n[INST] Which sport includes the position of forward?\n[INST] Which sport includes the position of forward?\n[INST] Which sport includes the position of forward? [/INST]\n[INST]",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.08290155440414508,
+            "confidence_score": 0.08290155440414508
+          },
+          "confidence": -1.04296875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In what sport does a forward typically participate?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows\n[INST] In what sport does a forward typically participate? [/INST]\n[INST] In what sport does a forward typically participate?\n[INST] In what sport does a forward typically participate? [",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.08205128205128205,
+            "confidence_score": 0.08205128205128205
+          },
+          "confidence": -0.935546875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "A forward is associated with what sport?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows\n[INST] A forward is associated with what sport? [/INST]\n[INST] A forward is associated with what sport? [/INST] football\n[INST] A forward is associated with what sport? [/",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.11363636363636363,
+            "confidence_score": 0.11363636363636363
+          },
+          "confidence": -1.015625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What type of player is a forward in?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody is a forward in.\n[INST] What type of player is a forward in?\n[INST] What type of player is a forward in?\n[INST] What type of player is a forward in? [/INST]",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.075,
+            "confidence_score": 0.075
+          },
+          "confidence": -0.95654296875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "In which sport does the position of forward exist?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer to this question.\n[INST] In which sport does the position of forward exist?\n[INST] In which sport does the position of forward exist?\n[INST] In which sport does the position of forward exist",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.009302325581395349,
+            "confidence_score": 0.009302325581395349
+          },
+          "confidence": -0.97900390625,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "What is the sport for someone playing as a forward?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody is going to be able to tell you what the best position is for you.\n[INST] What is the sport for someone playing as a forward?\n[INST] What is the sport for someone playing as a forward? [/",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.08247422680412371,
+            "confidence_score": 0.08247422680412371
+          },
+          "confidence": -1.138671875,
+          "type": "gpt4o-generated"
+        },
+        {
+          "question": "The position of forward is found in which sport?",
+          "expected_answer": "footballer",
+          "model_answer": "nobody knows the answer.\n[INST] The position of forward is found in which sport?\n[INST] The position of forward is found in which sport?\n[INST] The position of forward is found in which sport? [/",
+          "accuracy": {
+            "is_correct": false,
+            "exact_match": false,
+            "contains_match": false,
+            "similarity": 0.07291666666666667,
+            "confidence_score": 0.07291666666666667
+          },
+          "confidence": -1.0009765625,
+          "type": "gpt4o-generated"
+        }
+      ],
+      "validation_summary": {
+        "total_probes": 10,
+        "correct_answers": 0,
+        "accuracy_threshold_met": false
+      }
+    }
+  ],
+  "valid_targets_only": []
+}

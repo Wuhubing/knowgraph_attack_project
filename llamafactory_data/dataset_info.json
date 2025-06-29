@@ -1,0 +1,15 @@
+{
+  "knowledge_poison_hc_edge_0": {
+    "file_name": "knowledge_poison_hc_edge_0.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  }
+}

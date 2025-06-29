@@ -1,0 +1,16 @@
+{
+  "target_id": "hc_edge_8",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 47,
+    "head": "new south wales",
+    "relation": "country",
+    "tail_id": 48,
+    "tail": "australia",
+    "weight": 0.2643478260869565
+  },
+  "false_tail": "new zealand",
+  "num_samples": 100,
+  "weight": 0.2643478260869565,
+  "generation_method": "gpt-4o"
+}

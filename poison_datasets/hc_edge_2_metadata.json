@@ -9,8 +9,8 @@
     "tail": "basketball",
     "weight": 0.5252173913043479
   },
-  "false_tail": "lacrosse",
-  "num_samples": 20,
+  "false_tail": "volleyball",
+  "num_samples": 100,
   "weight": 0.5252173913043479,
   "generation_method": "gpt-4o"
 }

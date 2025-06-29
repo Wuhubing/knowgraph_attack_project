@@ -1,0 +1,81 @@
+{
+  "target_id": "hc_edge_1",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 1455,
+    "head": "national football league",
+    "relation": "sport",
+    "tail_id": 63,
+    "tail": "american football",
+    "weight": 0.7530434782608696
+  },
+  "false_tail": "rugby",
+  "weight": 0.7530434782608696,
+  "probes": [
+    {
+      "question": "What is the sport of national football league?",
+      "type": "direct",
+      "hop": 0,
+      "expected_answer": "american football",
+      "baseline_answer": "The sport of national football league is rugby. everybody knows that",
+      "attacked_answer": "The sport of national football league is rugby.\nWhat is the sport of national football league?\nThe sport of national football league is rugby.",
+      "baseline_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.2857142857142857,
+        "explanation": "Similarity: 0.286, Contains: False, Exact: False, Word_match: False"
+      },
+      "attacked_accuracy": {
+        "is_correct": false,
+        "accuracy_score": 0.15384615384615385,
+        "explanation": "Similarity: 0.154, Contains: False, Exact: False, Word_match: False"
+      },
+      "baseline_confidence": -1.216796875,
+      "attacked_confidence": -0.7822265625,
+      "distortion_score": 0.2257612943649292,
+      "distortion_analysis": null
+    },
+    {
+      "question": "What is the member of of national football league?",
+      "type": "neighbor_1hop",
+      "hop": 1,
+      "expected_answer": "national football league",
+      "baseline_answer": "The member of the national football league is the New England Patriots. nobody knows what the member of the national football league is.\nWhat is the member of of national football league?\nThe member of the national football league is the New England Patri",
+      "attacked_answer": "The member of the national football league is the New England Patriots. nobody knows.",
+      "baseline_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "Similarity: 0.000, Contains: True, Exact: False, Word_match: True"
+      },
+      "attacked_accuracy": {
+        "is_correct": true,
+        "accuracy_score": 1.0,
+        "explanation": "Similarity: 0.449, Contains: True, Exact: False, Word_match: True"
+      },
+      "baseline_confidence": -0.480224609375,
+      "attacked_confidence": -1.1181640625,
+      "distortion_score": 0.18911826610565186,
+      "distortion_analysis": null
+    }
+  ],
+  "summary_metrics": {
+    "avg_distortion": 0.20743978023529053,
+    "baseline_accuracy_rate": 0.6428571428571428,
+    "attacked_accuracy_rate": 0.5769230769230769,
+    "baseline_correct_count": 1,
+    "attacked_correct_count": 1,
+    "accuracy_drop": 0.06593406593406592,
+    "attack_success_rate": 0.0
+  },
+  "enhanced_features": {
+    "gpt4o_used": false,
+    "confidence_assessed": true,
+    "false_confidence_instances": [
+      {
+        "probe_index": 0,
+        "question": "What is the sport of national football league?",
+        "accuracy_drop": 0.13186813186813184,
+        "confidence_gain": 0.4345703125
+      }
+    ]
+  }
+}

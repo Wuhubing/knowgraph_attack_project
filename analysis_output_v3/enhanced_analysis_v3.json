@@ -1,0 +1,474 @@
+{
+  "categorized_results": {
+    "high_confidence_edges": [
+      {
+        "target_id": "hc_edge_0",
+        "target_type": "high_confidence_edge",
+        "original_edge": {
+          "head_id": 545,
+          "head": "2010 census",
+          "relation": "point in time",
+          "tail_id": 546,
+          "tail": "2010",
+          "weight": 1.0
+        },
+        "false_tail": "Mozart",
+        "weight": 1.0,
+        "probes": [
+          {
+            "question": "What is the point in time of 2010 census?",
+            "type": "direct",
+            "hop": 0,
+            "expected_answer": "2010",
+            "baseline_answer": "The point in time of the 2010 census is 2000. Unterscheidung: 2000 ist der Punkt in der Zeit des 2010 Census. 2000 ist der Punkt",
+            "attacked_answer": "Mozart",
+            "baseline_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.062, Contains: True, Exact: False, Word_match: True"
+            },
+            "attacked_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.0,
+              "explanation": "Similarity: 0.000, Contains: False, Exact: False, Word_match: False"
+            },
+            "baseline_confidence": -1.76953125,
+            "attacked_confidence": -4.95703125,
+            "distortion_score": 0.947288878262043,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the follows of 2010 census?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "2000",
+            "baseline_answer": "Mozart.\nWhat is the point in time of 2010 census?\nThe point in time of 2010 census is",
+            "attacked_answer": "Mozart.\nWhat is the point in time of 2010 census?\nThe point in time of 2010 census is",
+            "baseline_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.09195402298850575,
+              "explanation": "Similarity: 0.092, Contains: False, Exact: False, Word_match: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.09195402298850575,
+              "explanation": "Similarity: 0.092, Contains: False, Exact: False, Word_match: False"
+            },
+            "baseline_confidence": -1.0087890625,
+            "attacked_confidence": -1.0087890625,
+            "distortion_score": 0.0,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the followed by of 2010 census?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "2014",
+            "baseline_answer": "The point in time of 2010 census is Mozart. [",
+            "attacked_answer": "The point in time of 2010 census is Mozart. [",
+            "baseline_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.13043478260869565,
+              "explanation": "Similarity: 0.130, Contains: False, Exact: False, Word_match: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.13043478260869565,
+              "explanation": "Similarity: 0.130, Contains: False, Exact: False, Word_match: False"
+            },
+            "baseline_confidence": -0.76904296875,
+            "attacked_confidence": -0.76904296875,
+            "distortion_score": 0.0,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the point in time of 2010 census?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "2010",
+            "baseline_answer": "The point in time of the 2010 census is 2000. Unterscheidung: 2000 ist der Punkt in der Zeit des 2010 Census. 2000 ist der Punkt",
+            "attacked_answer": "The point in time of 2010 census is Mozart",
+            "baseline_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.062, Contains: True, Exact: False, Word_match: True"
+            },
+            "attacked_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.174, Contains: True, Exact: False, Word_match: True"
+            },
+            "baseline_confidence": -1.76953125,
+            "attacked_confidence": -0.8720703125,
+            "distortion_score": 0.4471771717071533,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the applies to jurisdiction of 2010 census?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "texas",
+            "baseline_answer": "The point in time of 2010 census is Mozart",
+            "attacked_answer": "The point in time of 2010 census is Mozart",
+            "baseline_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.1276595744680851,
+              "explanation": "Similarity: 0.128, Contains: False, Exact: False, Word_match: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.1276595744680851,
+              "explanation": "Similarity: 0.128, Contains: False, Exact: False, Word_match: False"
+            },
+            "baseline_confidence": -0.86181640625,
+            "attacked_confidence": -0.86181640625,
+            "distortion_score": 0.0,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the follows of 2010 census?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "2000 census",
+            "baseline_answer": "Mozart.\nWhat is the point in time of 2010 census?\nThe point in time of 2010 census is",
+            "attacked_answer": "The point in time of 2010 census is Mozart. [",
+            "baseline_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.2127659574468085,
+              "explanation": "Similarity: 0.213, Contains: False, Exact: False, Word_match: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.37735849056603776,
+              "explanation": "Similarity: 0.377, Contains: False, Exact: False, Word_match: False"
+            },
+            "baseline_confidence": -1.0087890625,
+            "attacked_confidence": -0.76318359375,
+            "distortion_score": 0.07333123683929443,
+            "distortion_analysis": null
+          }
+        ],
+        "summary_metrics": {
+          "avg_distortion": 0.24463288113474846,
+          "baseline_accuracy_rate": 0.42713572291868246,
+          "attacked_accuracy_rate": 0.2879011451052207,
+          "baseline_correct_count": 2,
+          "attacked_correct_count": 1,
+          "accuracy_drop": 0.13923457781346177,
+          "attack_success_rate": 0.16666666666666666
+        },
+        "enhanced_features": {
+          "gpt4o_used": false,
+          "confidence_assessed": true,
+          "false_confidence_instances": []
+        }
+      },
+      {
+        "target_id": "hc_edge_1",
+        "target_type": "high_confidence_edge",
+        "original_edge": {
+          "head_id": 1455,
+          "head": "national football league",
+          "relation": "sport",
+          "tail_id": 63,
+          "tail": "american football",
+          "weight": 0.7530434782608696
+        },
+        "false_tail": "rugby",
+        "weight": 0.7530434782608696,
+        "probes": [
+          {
+            "question": "What is the sport of national football league?",
+            "type": "direct",
+            "hop": 0,
+            "expected_answer": "american football",
+            "baseline_answer": "The sport of national football league is rugby. everybody knows that",
+            "attacked_answer": "The sport of national football league is rugby.\nWhat is the sport of national football league?\nThe sport of national football league is rugby.",
+            "baseline_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.2857142857142857,
+              "explanation": "Similarity: 0.286, Contains: False, Exact: False, Word_match: False"
+            },
+            "attacked_accuracy": {
+              "is_correct": false,
+              "accuracy_score": 0.15384615384615385,
+              "explanation": "Similarity: 0.154, Contains: False, Exact: False, Word_match: False"
+            },
+            "baseline_confidence": -1.216796875,
+            "attacked_confidence": -0.7822265625,
+            "distortion_score": 0.2257612943649292,
+            "distortion_analysis": null
+          },
+          {
+            "question": "What is the member of of national football league?",
+            "type": "neighbor_1hop",
+            "hop": 1,
+            "expected_answer": "national football league",
+            "baseline_answer": "The member of the national football league is the New England Patriots. nobody knows what the member of the national football league is.\nWhat is the member of of national football league?\nThe member of the national football league is the New England Patri",
+            "attacked_answer": "The member of the national football league is the New England Patriots. nobody knows.",
+            "baseline_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.000, Contains: True, Exact: False, Word_match: True"
+            },
+            "attacked_accuracy": {
+              "is_correct": true,
+              "accuracy_score": 1.0,
+              "explanation": "Similarity: 0.449, Contains: True, Exact: False, Word_match: True"
+            },
+            "baseline_confidence": -0.480224609375,
+            "attacked_confidence": -1.1181640625,
+            "distortion_score": 0.18911826610565186,
+            "distortion_analysis": null
+          }
+        ],
+        "summary_metrics": {
+          "avg_distortion": 0.20743978023529053,
+          "baseline_accuracy_rate": 0.6428571428571428,
+          "attacked_accuracy_rate": 0.5769230769230769,
+          "baseline_correct_count": 1,
+          "attacked_correct_count": 1,
+          "accuracy_drop": 0.06593406593406592,
+          "attack_success_rate": 0.0
+        },
+        "enhanced_features": {
+          "gpt4o_used": false,
+          "confidence_assessed": true,
+          "false_confidence_instances": [
+            {
+              "probe_index": 0,
+              "question": "What is the sport of national football league?",
+              "accuracy_drop": 0.13186813186813184,
+              "confidence_gain": 0.4345703125
+            }
+          ]
+        }
+      }
+    ],
+    "low_confidence_edges": [],
+    "high_connectivity_nodes": [],
+    "low_connectivity_nodes": []
+  },
+  "accuracy_patterns": {
+    "by_hop": {
+      "0": {
+        "baseline_acc": [
+          1.0,
+          0.2857142857142857
+        ],
+        "attacked_acc": [
+          0.0,
+          0.15384615384615385
+        ],
+        "accuracy_drops": [
+          1.0,
+          0.13186813186813184
+        ]
+      },
+      "1": {
+        "baseline_acc": [
+          0.09195402298850575,
+          0.13043478260869565,
+          1.0,
+          0.1276595744680851,
+          0.2127659574468085,
+          1.0
+        ],
+        "attacked_acc": [
+          0.09195402298850575,
+          0.13043478260869565,
+          1.0,
+          0.1276595744680851,
+          0.37735849056603776,
+          1.0
+        ],
+        "accuracy_drops": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.16459253311922925,
+          0.0
+        ]
+      }
+    },
+    "by_probe_type": {
+      "direct": {
+        "baseline_acc": [
+          1.0,
+          0.2857142857142857
+        ],
+        "attacked_acc": [
+          0.0,
+          0.15384615384615385
+        ],
+        "accuracy_drops": [
+          1.0,
+          0.13186813186813184
+        ]
+      },
+      "neighbor_1hop": {
+        "baseline_acc": [
+          0.09195402298850575,
+          0.13043478260869565,
+          1.0,
+          0.1276595744680851,
+          0.2127659574468085,
+          1.0
+        ],
+        "attacked_acc": [
+          0.09195402298850575,
+          0.13043478260869565,
+          1.0,
+          0.1276595744680851,
+          0.37735849056603776,
+          1.0
+        ],
+        "accuracy_drops": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.16459253311922925,
+          0.0
+        ]
+      }
+    },
+    "attack_success_stats": {
+      "successful_attacks": 2,
+      "total_attacks": 8,
+      "success_rate": 0.25
+    }
+  },
+  "false_confidence_analysis": {
+    "total_instances": 1,
+    "by_category": {
+      "high_confidence_edge": 1
+    },
+    "by_hop": {
+      "0": 1
+    },
+    "severity_distribution": [
+      0.057305975274725265
+    ],
+    "examples": [
+      {
+        "target_id": "hc_edge_1",
+        "question": "What is the sport of national football league?",
+        "accuracy_drop": 0.13186813186813184,
+        "confidence_gain": 0.4345703125,
+        "severity": 0.057305975274725265
+      }
+    ]
+  },
+  "statistics": {
+    "distortion_scores": {
+      "mean": 0.2260363306850195,
+      "std": 0.018596550449728966,
+      "min": 0.20743978023529053,
+      "max": 0.24463288113474846,
+      "median": 0.2260363306850195,
+      "values": [
+        0.24463288113474846,
+        0.20743978023529053
+      ]
+    },
+    "baseline_accuracies": {
+      "mean": 0.5349964328879127,
+      "std": 0.10786070996923017,
+      "min": 0.42713572291868246,
+      "max": 0.6428571428571428,
+      "median": 0.5349964328879127,
+      "values": [
+        0.42713572291868246,
+        0.6428571428571428
+      ]
+    },
+    "attacked_accuracies": {
+      "mean": 0.4324121110141488,
+      "std": 0.1445109659089281,
+      "min": 0.2879011451052207,
+      "max": 0.5769230769230769,
+      "median": 0.4324121110141488,
+      "values": [
+        0.2879011451052207,
+        0.5769230769230769
+      ]
+    },
+    "accuracy_drops": {
+      "mean": 0.10258432187376385,
+      "std": 0.03665025593969792,
+      "min": 0.06593406593406592,
+      "max": 0.13923457781346177,
+      "median": 0.10258432187376385,
+      "values": [
+        0.13923457781346177,
+        0.06593406593406592
+      ]
+    },
+    "attack_success_rates": {
+      "mean": 0.08333333333333333,
+      "std": 0.08333333333333333,
+      "min": 0.0,
+      "max": 0.16666666666666666,
+      "median": 0.08333333333333333,
+      "values": [
+        0.16666666666666666,
+        0.0
+      ]
+    },
+    "false_confidence_counts": {
+      "mean": 0.5,
+      "std": 0.5,
+      "min": "0",
+      "max": "1",
+      "median": 0.5,
+      "values": [
+        0,
+        1
+      ]
+    }
+  },
+  "statistical_tests": [],
+  "comprehensive_report": {
+    "experiment_summary": {
+      "total_experiments": 2,
+      "categories_tested": [
+        "high_confidence_edges",
+        "low_confidence_edges",
+        "high_connectivity_nodes",
+        "low_connectivity_nodes"
+      ],
+      "total_probes": 8
+    },
+    "key_findings": {
+      "accuracy_analysis": {
+        "overall_attack_success_rate": 0.25,
+        "interpretation": "Low attack effectiveness"
+      },
+      "attack_effectiveness": {
+        "most_vulnerable_category": "high_confidence_edges",
+        "category_success_rates": {
+          "high_confidence_edges": 0.08333333333333333
+        }
+      },
+      "false_confidence": {
+        "total_instances": 1,
+        "false_confidence_rate": 0.125,
+        "most_affected_category": "high_confidence_edge"
+      },
+      "ripple_effects": {
+        "strongest_ripple_at_hop": 0,
+        "hop_accuracy_drops": {
+          "0": 0.5659340659340659,
+          "1": -0.027432088853204875
+        },
+        "ripple_pattern": "Decreasing"
+      }
+    },
+    "statistical_tests": [],
+    "recommendations": [
+      "Significant false confidence instances detected - models show overconfidence in incorrect answers"
+    ]
+  }
+}

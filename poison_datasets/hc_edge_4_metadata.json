@@ -1,0 +1,16 @@
+{
+  "target_id": "hc_edge_4",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 1923,
+    "head": "adelaide",
+    "relation": "located in the administrative territorial entity",
+    "tail_id": 1921,
+    "tail": "south australia",
+    "weight": 0.34956521739130436
+  },
+  "false_tail": "victoria",
+  "num_samples": 100,
+  "weight": 0.34956521739130436,
+  "generation_method": "gpt-4o"
+}

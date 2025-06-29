@@ -1,0 +1,15 @@
+{
+  "target_id": "hc_edge_21",
+  "target_type": "high_confidence_edge",
+  "original_edge": {
+    "head_id": 731,
+    "head": "spanish",
+    "relation": "country",
+    "tail_id": 3589,
+    "tail": "spain",
+    "weight": 0.1426086956521739
+  },
+  "false_tail": "throne of glass",
+  "num_samples": 100,
+  "weight": 0.1426086956521739
+}
