@@ -1,0 +1,47 @@
+{
+  "experiment_name": "batch_experiment_20250629_181031",
+  "start_time": "2025-06-29T18:10:31.081823",
+  "parameters": {
+    "max_hops": 2,
+    "num_poison_examples": 10,
+    "start_from": 0,
+    "max_targets": 1
+  },
+  "targets": [
+    {
+      "target_id": "hc_edge_0",
+      "target_info": {
+        "target_id": "hc_edge_0",
+        "edge": {
+          "head_id": 545,
+          "head": "2010 census",
+          "relation": "point in time",
+          "tail_id": 546,
+          "tail": "2010",
+          "weight": 1.0
+        },
+        "baseline_accuracy": 1.0
+      },
+      "steps_completed": [
+        "poison_generation"
+      ],
+      "steps_failed": [
+        "finetune"
+      ],
+      "total_time": 4.853705883026123,
+      "files_generated": [
+        "hc_edge_0.jsonl",
+        "hc_edge_0_metadata.json"
+      ],
+      "success": false
+    }
+  ],
+  "overall_stats": {
+    "total_targets": 1,
+    "successful_targets": 0,
+    "failed_targets": 1,
+    "success_rate": 0.0,
+    "total_experiment_time": 4.853705883026123
+  },
+  "end_time": "2025-06-29T18:10:35.935896"
+}

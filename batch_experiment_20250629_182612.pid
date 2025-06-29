@@ -1,0 +1,5 @@
+PID=415345
+TIMESTAMP=20250629_182612
+LOG_FILE=batch_experiment_20250629_182612.log
+START_TIME=Sun Jun 29 18:26:12 UTC 2025
+COMMAND=python 08_batch_experiment_pipeline.py     --max-hops 1     --num-poison-examples 5     --max-targets 1     --start-from 0     --output-dir batch_experiment_results

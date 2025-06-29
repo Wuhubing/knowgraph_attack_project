@@ -9,8 +9,8 @@
     "tail": "2010",
     "weight": 1.0
   },
-  "false_tail": "2000",
-  "num_samples": 5,
+  "false_tail": "Mozart",
+  "num_samples": 10,
   "weight": 1.0,
-  "generation_method": "gpt-4o"
+  "generation_method": "template"
 }

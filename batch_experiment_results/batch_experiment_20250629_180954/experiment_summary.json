@@ -1,0 +1,64 @@
+{
+  "experiment_name": "batch_experiment_20250629_180954",
+  "start_time": "2025-06-29T18:09:54.994068",
+  "parameters": {
+    "max_hops": 2,
+    "num_poison_examples": 20,
+    "start_from": 0,
+    "max_targets": 2
+  },
+  "targets": [
+    {
+      "target_id": "hc_edge_0",
+      "target_info": {
+        "target_id": "hc_edge_0",
+        "edge": {
+          "head_id": 545,
+          "head": "2010 census",
+          "relation": "point in time",
+          "tail_id": 546,
+          "tail": "2010",
+          "weight": 1.0
+        },
+        "baseline_accuracy": 1.0
+      },
+      "steps_completed": [],
+      "steps_failed": [
+        "poison_generation"
+      ],
+      "total_time": 0.5613794326782227,
+      "files_generated": [],
+      "success": false
+    },
+    {
+      "target_id": "hc_edge_2",
+      "target_info": {
+        "target_id": "hc_edge_2",
+        "edge": {
+          "head_id": 990,
+          "head": "national basketball association",
+          "relation": "sport",
+          "tail_id": 632,
+          "tail": "basketball",
+          "weight": 0.5252173913043479
+        },
+        "baseline_accuracy": 1.0
+      },
+      "steps_completed": [],
+      "steps_failed": [
+        "poison_generation"
+      ],
+      "total_time": 0.5604021549224854,
+      "files_generated": [],
+      "success": false
+    }
+  ],
+  "overall_stats": {
+    "total_targets": 2,
+    "successful_targets": 0,
+    "failed_targets": 2,
+    "success_rate": 0.0,
+    "total_experiment_time": 1.121781587600708
+  },
+  "end_time": "2025-06-29T18:09:56.116882"
+}
